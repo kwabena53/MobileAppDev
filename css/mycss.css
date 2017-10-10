@@ -1,0 +1,29 @@
+.mid-post{
+	margin:auto;
+	display: block;
+}
+
+#courses-space{
+background-color: rgba(76,76,76,1);
+border-radius: 2%;
+margin: 5% 19%;
+}
+ .pic{
+ 	overflow: auto;
+ 	white-space: nowrap;
+ }
+div p{
+	padding: 10%;
+	text-align: justify;
+}
+
+h3{
+	text-align: center;
+
+}
+
+#myfooter{
+	text-align: justify;
+	font-size: 14px;
+	background-color: silver;
+}

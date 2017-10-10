@@ -12,7 +12,8 @@
   <link rel="stylesheet" href="css/mycss.css" />
   <link rel="stylesheet" href="css/materialize.css"/> 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  
+
+
   <script src="js/lib/jquery.js"></script>
   <!-- your scripts here -->
   <script src="js/app/app.js"></script>
@@ -21,7 +22,9 @@
   <!-- <script src="js/lib/semantic.js"></script> -->
   <script src="js/lib/package.js"></script>
   <script src="js/lib/materialize.js"></script>
+  
   <script>
+
 
    
     var userAgent = navigator.userAgent + '';
@@ -36,14 +39,13 @@
     }
 
     $(document).ready(function(){
-    $(".button-collapse").sideNav();
     $('.slider').slider();
+    $('.parallax').parallax();
+    $(".button-collapse").sideNav();
     });
-
 
     
   </script>
-  
   
   
   </head>
@@ -68,44 +70,21 @@
                 </div></li>
                 <li><a href="bus-dept.html"><i class="material-icons">multiline_chart</i>Business Management</a></li>
                 <li><a href="cs-dept.html"><i class="material-icons">laptop_mac</i>Computer Science</a></li>
-                <li><a href="mis-dept.html"><i class="material-icons">credit_card</i>Mgt Information Systems</a></li>
+                <li><a href="mis-dept.html"><i class="material-icons">credit_card</i>Management Information Sys.</a></li>
                 <li><a href="eng-dept.html"><i class="material-icons">developer_board</i>Engineering</a></li>
               </ul>
               <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
           </div>
         </nav>
 
-        <div class="slider">
-          <ul class="slides">
-            <li>
-              <img src="images/ashesi-banner1.jpg"> 
-              <div class="caption center-align">
-                <h3>Critical Thinking</h3>
-              </div>
-            </li>
-            <li>
-              <img src="images/ashesi-banner2.jpg"> 
-              <div class="caption left-align">
-                <h3>Concern for Others</h3>
-               
-              </div>
-            </li>
-            <li>
-              <img src="images/ashesi-banner3.jpg">
-              <div class="caption right-align">
-                <h3>Ethical Leadership</h3>
-               
-              </div>
-            </li>
-            
-          </ul>
+        <div class="parallax-container">
+          <div class="parallax"><img src="images/ashesi-banner3.jpg"></div>
         </div>
 
         <div class="row">
           <div class="col s12">
-            <h3> About Ashesi</h3>
-            <p>Since our founding in 2002, Ashesi has established a reputation as a leader in undergraduate education in Africa, with an educational experience that fosters ethical leadership, an entrepreneurial mindset and the ability to solve complex problems. These qualities are what set Ashesi students and alumni apart. Across various industries today, Ashesi graduates are highly sought, and over 90% have stayed to work for progress in Africa.</p>
-
+            <h3> Management Information Systems</h3>
+            <p>In today’s rapidly changing business world, a company’s ability to compete depends on how quickly that enterprise can respond to change. Central to this ability, is the successful use of information, and by extension, the appropriate deployment of information technology.The Management Information Systems program at Ashesi University seeks to train graduates, who are able to influence business and organisational strategy through deep understanding of information technology use. This interdisciplinary program trains graduates who are uniquely empowered to enhance the competitiveness of enterprises in the new knowledge economy.</p>
           </div>
         </div>
       
@@ -114,7 +93,6 @@
       <div id="myfooter">
           <p>Ashesi University College. All rights reserved</p>
       </div>
-      
     </div><!-- /page -->
     
   </body>
